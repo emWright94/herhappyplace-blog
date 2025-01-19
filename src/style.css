@@ -2,7 +2,7 @@ body {
   background-color: #c1d8c3;
 }
 .navigation {
-  max-width: 90%;
+  max-width: 50%;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -15,11 +15,11 @@ body {
   opacity: 80%;
   font-family: "Lexend", serif;
   color: #cd5c08;
-  max-width: 500px;
 }
 h1 {
   font-size: 30px;
   font-weight: 300;
+  line-height: 100%;
 }
 
 h2 {
@@ -41,7 +41,7 @@ a:hover {
   color: #674636;
 }
 .aboutEm {
-  max-width: 90%;
+  max-width: 75%;
   text-align: left;
   display: block;
   margin: 0 auto;
@@ -57,7 +57,7 @@ a:hover {
   opacity: 80%;
 }
 .birdieIntro {
-  max-width: 90%;
+  max-width: 75%;
   text-align: left;
   display: block;
   margin: 0 auto;
@@ -73,7 +73,7 @@ a:hover {
   opacity: 80%;
 }
 .petIntros {
-  max-width: 90%;
+  max-width: 75%;
   text-align: left;
   margin: 0 auto;
   border: solid #674636;
