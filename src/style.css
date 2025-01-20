@@ -93,7 +93,12 @@ a:hover {
 }
 .petBios {
   display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 10px;
-  grid-gap: 20px;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap: 15px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+#petPhoto {
+  width: 150px;
+  border: solid 1px #cd5c08;
 }
