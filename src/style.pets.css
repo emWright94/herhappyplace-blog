@@ -1,0 +1,62 @@
+.petIntros {
+  max-width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 30px;
+  border: solid #3a4d39;
+  border-radius: 5px;
+  color: #6a9c89;
+  background-color: #ece3ce;
+  font-family: "Lexend", serif;
+  font-size: smaller;
+}
+.mainCharacters {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 100%;
+  color: #3a4d39;
+}
+.petBioGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 40px;
+  column-gap: 40px;
+}
+.petBioSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#pet-photo {
+  border: solid #3a4d39;
+  border-radius: 5px;
+  width: 150px;
+}
+.petNameLeft {
+  color: #3a4d39;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: left;
+}
+.petNameRight {
+  color: #3a4d39;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: right;
+}
+.petBioLeft {
+  margin: 0 auto;
+  line-height: 150%;
+  text-align: left;
+}
+.petBioRight {
+  margin: 0 auto;
+  line-height: 150%;
+  text-align: right;
+}

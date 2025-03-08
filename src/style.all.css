@@ -1,0 +1,150 @@
+body {
+  background-color: #739072;
+}
+.navigation {
+  max-width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: solid #3a4d39;
+  border-radius: 5px;
+  line-height: 75%;
+  color: #3a4d39;
+  background-color: #ece3ce;
+  font-family: "Lexend", serif;
+}
+.navigationH1 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 100%;
+}
+.navigationH2 {
+  color: #6a9c89;
+  font-size: 13px;
+}
+.navigationLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0;
+}
+a:link,
+a:visited {
+  color: #3a4d39;
+}
+a:hover {
+  color: #3a4d39;
+}
+
+.petIntros {
+  max-width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 30px;
+  border: solid #3a4d39;
+  border-radius: 5px;
+  color: #6a9c89;
+  background-color: #ece3ce;
+  font-family: "Lexend", serif;
+  font-size: smaller;
+}
+.mainCharacters {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 100%;
+  color: #3a4d39;
+}
+.petBioGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 40px;
+  column-gap: 40px;
+}
+.petBioSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+#pet-photo {
+  border: solid #3a4d39;
+  border-radius: 5px;
+  width: 150px;
+}
+.petNameLeft {
+  color: #3a4d39;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: left;
+}
+.petNameRight {
+  color: #3a4d39;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: right;
+}
+.petBioLeft {
+  margin: 0 auto;
+  line-height: 150%;
+  text-align: left;
+}
+.petBioRight {
+  margin: 0 auto;
+  line-height: 150%;
+  text-align: right;
+}
+.newPost {
+  max-width: 80%;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  border: solid #3a4d39;
+  border-radius: 5px;
+  padding: 30px;
+  color: #6a9c89;
+  background-color: #ece3ce;
+  font-family: "Lexend", serif;
+  font-size: smaller;
+  line-height: 175%;
+}
+.postTitle {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 100%;
+  color: #3a4d39;
+}
+.postBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+.postImg {
+  border: solid 1px #3a4d39;
+  border-radius: 5px;
+  width: 300px;
+}
+.postContent {
+  margin: 0 auto;
+  line-height: 150%;
+  text-align: left;
+  font-size: larger;
+}
+.postImgGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
