@@ -102,6 +102,18 @@ a:hover {
   line-height: 150%;
   text-align: right;
 }
+.footer {
+  max-width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 30px;
+  line-height: 75%;
+  color: #ece3ce;
+  font-family: "Lexend", serif;
+  font-size: smaller;
+}
 .newPost {
   max-width: 80%;
   text-align: left;
