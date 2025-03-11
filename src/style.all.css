@@ -22,22 +22,24 @@ body {
 }
 .navigationH2 {
   color: #6a9c89;
-  font-size: 13px;
+  font-size: 18px;
 }
 .navigationLinks {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
-  font-size: 12px;
-  padding: 0;
+  font-size: 15px;
+  padding-left: 0;
 }
 a:link,
 a:visited {
   color: #3a4d39;
+  text-decoration: none;
 }
 a:hover {
-  color: #3a4d39;
+  color: #739072;
+  text-decoration: none;
 }
 
 .petIntros {
@@ -130,7 +132,7 @@ a:hover {
 }
 .postTitle {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 30px;
   font-weight: 300;
   line-height: 100%;
@@ -146,6 +148,8 @@ a:hover {
   border: solid 1px #3a4d39;
   border-radius: 5px;
   width: 300px;
+  float: left;
+  margin-right: 15px;
 }
 .postContent {
   margin: 0 auto;
@@ -153,10 +157,32 @@ a:hover {
   text-align: left;
   font-size: larger;
 }
-.postImgGrid {
+.gridWrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  row-gap: 20px;
-  column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  max-width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  border: solid #3a4d39;
+  border-radius: 5px;
+  padding: 30px;
+  color: #6a9c89;
+  background-color: #ece3ce;
+  font-family: "Lexend", serif;
+  font-size: smaller;
+  line-height: 175%;
+}
+@media only screen and (max-width: 768px) {
+  .gridWrapper {
+    display: block;
+  }
+}
+.gridImage {
+  border: solid 1px #3a4d39;
+  border-radius: 5px;
+}
+figure {
+  margin: 0;
 }
