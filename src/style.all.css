@@ -169,6 +169,15 @@ a:hover {
   #pet-photo {
     margin-bottom: 10px;
   }
+  .navigationH2 {
+    font-size: small;
+  }
+  .navigationLinks {
+    font-size: smaller;
+  }
+  .navigationH1 {
+    font-size: larger;
+  }
 }
 .gridImage {
   border: solid 1px #3a4d39;
