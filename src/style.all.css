@@ -64,46 +64,31 @@ a:hover {
 }
 .petBioGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  row-gap: 40px;
-  column-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  text-align: left;
+  margin: 0;
+  color: #6a9c89;
 }
 .petBioSection {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
 }
 #pet-photo {
   border: solid #3a4d39;
   border-radius: 5px;
   width: 150px;
+  float: left;
+  margin-right: 15px;
 }
-.petNameLeft {
-  color: #3a4d39;
-  font-size: 20px;
-  font-weight: 300;
-  margin: 0 auto;
-  text-align: left;
-}
-.petNameRight {
-  color: #3a4d39;
-  font-size: 20px;
-  font-weight: 300;
-  margin: 0 auto;
-  text-align: right;
-}
-.petBioLeft {
+.petBio {
   margin: 0 auto;
   line-height: 150%;
   text-align: left;
 }
-.petBioRight {
-  margin: 0 auto;
-  line-height: 150%;
-  text-align: right;
-}
+
 .footer {
   max-width: 80%;
   text-align: center;
@@ -174,9 +159,15 @@ a:hover {
   font-size: smaller;
   line-height: 175%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .gridWrapper {
     display: block;
+  }
+  .petBioGrid {
+    display: block;
+  }
+  #pet-photo {
+    margin-bottom: 10px;
   }
 }
 .gridImage {
