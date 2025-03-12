@@ -211,7 +211,10 @@ figure {
     margin-bottom: 5px;
   }
   .postContent {
-    margin-right: 15px;
+    margin-right: 10px;
+  }
+  .postBody {
+    margin-right: 10px;
   }
   figcaption {
     margin-bottom: 5px;
