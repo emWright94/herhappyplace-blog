@@ -159,6 +159,28 @@ a:hover {
   font-size: smaller;
   line-height: 175%;
 }
+.gridImage {
+  border: solid 1px #3a4d39;
+  border-radius: 5px;
+}
+figure {
+  margin: 0;
+}
+.blogImgRight {
+  border: solid 1px #3a4d39;
+  border-radius: 5px;
+  width: 200px;
+  float: right;
+  margin-left: 15px;
+}
+.blogImgLeft {
+  border: solid 1px #3a4d39;
+  border-radius: 5px;
+  width: 200px;
+  float: left;
+  margin-right: 15px;
+}
+
 @media only screen and (max-width: 800px) {
   .gridWrapper {
     display: block;
@@ -166,8 +188,11 @@ a:hover {
   .petBioGrid {
     display: block;
   }
+  .petBio {
+    margin-bottom: 5px;
+  }
   #pet-photo {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .navigationH2 {
     font-size: small;
@@ -178,11 +203,16 @@ a:hover {
   .navigationH1 {
     font-size: larger;
   }
-}
-.gridImage {
-  border: solid 1px #3a4d39;
-  border-radius: 5px;
-}
-figure {
-  margin: 0;
+  .postImg {
+    margin-bottom: 5px;
+  }
+  figcaption {
+    margin-bottom: 5px;
+  }
+  .blogImgLeft {
+    margin-bottom: 5px;
+  }
+  .blogImgRight {
+    margin-bottom: 5px;
+  }
 }
