@@ -171,14 +171,18 @@ figure {
   border-radius: 5px;
   width: 200px;
   float: right;
-  margin-left: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .blogImgLeft {
   border: solid 1px #3a4d39;
   border-radius: 5px;
   width: 200px;
   float: left;
-  margin-right: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -211,10 +215,10 @@ figure {
   }
   .blogImgLeft {
     margin-bottom: 5px;
-    float: right;
+    display: block;
   }
   .blogImgRight {
     margin-bottom: 5px;
-    float: left;
+    display: block;
   }
 }
