@@ -189,7 +189,7 @@ figure {
     display: block;
   }
   .petBio {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   #pet-photo {
     margin-bottom: 5px;
@@ -211,8 +211,10 @@ figure {
   }
   .blogImgLeft {
     margin-bottom: 5px;
+    float: right;
   }
   .blogImgRight {
     margin-bottom: 5px;
+    float: left;
   }
 }
