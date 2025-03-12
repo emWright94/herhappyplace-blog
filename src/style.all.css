@@ -210,6 +210,9 @@ figure {
   .postImg {
     margin-bottom: 5px;
   }
+  .postContent {
+    margin-right: 15px;
+  }
   figcaption {
     margin-bottom: 5px;
   }
