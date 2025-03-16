@@ -101,6 +101,9 @@ a:hover {
   font-family: "Lexend", serif;
   font-size: smaller;
 }
+.underFooter {
+  color: #3a4d39;
+}
 .newPost {
   max-width: 80%;
   text-align: left;
@@ -180,15 +183,6 @@ figure {
   border-radius: 5px;
   width: 200px;
   float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.blogImgCenter {
-  border: solid 1px #3a4d39;
-  border-radius: 5px;
-  width: 200px;
-  float: right;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
