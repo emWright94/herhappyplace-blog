@@ -193,6 +193,7 @@ figure {
   .gridWrapper {
     display: block;
   }
+
   .petBioGrid {
     display: block;
   }
@@ -221,7 +222,7 @@ figure {
     margin-right: 10px;
   }
   figcaption {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   .blogImgLeft {
     margin-bottom: 5px;
