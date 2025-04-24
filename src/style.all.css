@@ -39,7 +39,7 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #739072;
+  color: #6a9c89;
   text-decoration: none;
 }
 
@@ -104,6 +104,23 @@ a:hover {
 }
 .underFooter {
   color: #3a4d39;
+}
+.emWright:hover {
+  color: #ece3ce;
+}
+.topButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #ece3ce;
+  font-family: "Lexend", serif;
+  color: #3a4d39;
+  padding: 4px;
+}
+.topButton:hover {
+  border: none;
+  background-color: #3a4d39;
+  color: #ece3ce;
+  cursor: pointer;
 }
 .newPost {
   max-width: 80%;
