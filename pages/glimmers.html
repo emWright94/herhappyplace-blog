@@ -41,6 +41,19 @@
     <div class="newPost">
       <div class="postBody">
         <p class="postContent">
+          4/25/25 This week I've been putting the subfloor in on the bus, which
+          has involved a lot of trips to home depot, as well as renting a pickup
+          from them to bring plywood and insulation home. I gotta shout out the
+          Danvers Independece Way HD because everyone there that I've interacted
+          with has been incredible. From my buddy Douglas who set me up with a
+          pro account, guarded my carts while I ran around grabbing what I
+          needed, and even went to find and retrieve something I needed himself,
+          to the guys in the tool/truck rental room who were having a hell of a
+          busy day but were still cheerful with me and had the jokes ready to
+          go- every single person was a total love and made a potentially
+          stressful task so much easier! What a glimmer filled week 🥰
+          <br />
+          <br />
           4/21/2025 Best glimmer ever to report today!! About a year ago I made
           a crochet elephant out of a jersey cotton bedsheet I cut up. He was a
           little mishapen as he was one of my very first crochet projects, but
@@ -201,28 +214,35 @@
     </div>
 
     <footer class="footer">
-      Coded with 💛 by
-      <a
-        class="emWright"
-        target="blank"
-        href="https://app.netlify.com/teams/emwright94/sites"
-        >Em Wright</a
-      >
-      <p class="underFooter">
-        <small
-          >Want to get in touch? You can reach me at
-          thenshefliesaway@gmail.com.</small
-        >
-      </p>
-      <button
-        onclick="topFunction()"
-        class="topButton"
-        id="topButton"
-        title="Go to top"
-      >
-        Top
-      </button>
+      <div class="footerTwo">
+        <div>
+          Coded with 💛 by
+          <a
+            class="emWright"
+            target="blank"
+            href="https://app.netlify.com/teams/emwright94/sites"
+            >Em Wright</a
+          >
+
+          <p class="contact">
+            <small
+              >Want to get in touch? You can reach me <br />
+              at thenshefliesaway@gmail.com.</small
+            >
+          </p>
+        </div>
+        <button class="topButton" id="topButton">Top</button>
+      </div>
     </footer>
-    <script src="script.js"></script>
+    <script>
+      let topButton = document.querySelector(".topButton");
+
+      topButton.addEventListener("click", () => {
+        document.documentElement.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
   </body>
 </html>

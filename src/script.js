@@ -1,13 +1,8 @@
-let rootElement = document.documentElement;
-function topFunction() {
-  console.log("test");
+let topButton = document.querySelector(".topButton");
 
-  rootElement.scrollTo({
+topButton.addEventListener("click", () => {
+  document.documentElement.scrollTo({
     top: 0,
     behavior: "smooth",
   });
-}
-let topButton = document.querySelector("#topButton");
-topButton.addEventListener("click", topFunction);
-
-console.log("testing testing");
+});
