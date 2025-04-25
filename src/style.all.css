@@ -102,21 +102,28 @@ a:hover {
   font-family: "Lexend", serif;
   font-size: smaller;
 }
-.underFooter {
+.footerTwo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.contact {
   color: #3a4d39;
 }
 .emWright:hover {
   color: #ece3ce;
 }
-.topButton {
+button {
   border: none;
   border-radius: 5px;
   background-color: #ece3ce;
   font-family: "Lexend", serif;
+  font-size: larger;
   color: #3a4d39;
-  padding: 4px;
+  padding: 4px, 6px;
+  margin: 15px;
 }
-.topButton:hover {
+button:hover {
   border: none;
   background-color: #3a4d39;
   color: #ece3ce;
