@@ -172,6 +172,7 @@ button:hover {
   line-height: 150%;
   text-align: left;
   font-size: larger;
+  max-width: 100%;
 }
 .gridWrapper {
   display: grid;
@@ -194,19 +195,21 @@ button:hover {
   border: solid 1px #3a4d39;
   border-radius: 5px;
 }
-.gridWrapperTwo {
+.blogGridWrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 30px;
   column-gap: 30px;
-  max-width: 30%;
+  width: 90%;
   margin: 0 auto;
   padding: 30px;
 }
-.gridImageTwo {
+.blogGridImage {
   border: solid 1px #3a4d39;
   border-radius: 5px;
-  width: 300px;
+  width: 200px;
+  margin: auto;
 }
 figure {
   margin: 0;
@@ -225,15 +228,6 @@ figure {
   border-radius: 5px;
   width: 200px;
   float: left;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.blogImgCenter {
-  border: solid 1px #3a4d39;
-  border-radius: 5px;
-  width: 300px;
-  float: none;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
