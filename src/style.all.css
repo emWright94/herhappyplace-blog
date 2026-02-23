@@ -58,6 +58,7 @@ a:hover {
   font-family: "Lexend", serif;
   font-size: smaller;
 }
+
 .mainCharacters {
   margin-top: 0;
   margin-bottom: 30px;
@@ -237,7 +238,9 @@ figure {
   .gridWrapper {
     display: block;
   }
-
+  .blogGridWrapper {
+    display: block;
+  }
   .petBioGrid {
     display: block;
   }
