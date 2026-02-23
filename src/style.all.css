@@ -199,7 +199,7 @@ button:hover {
 .blogGridWrapper {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: 200px, 1fr 1fr 1fr;
   row-gap: 30px;
   column-gap: 30px;
   width: 100%;
@@ -209,9 +209,8 @@ button:hover {
 .blogGridImage {
   border: solid 1px #3a4d39;
   border-radius: 5px;
-  width: 100%;
+  width: 90%;
   height: 100%;
-  object-fit: cover;
   margin: auto;
   gap: 10px;
 }
@@ -248,6 +247,14 @@ figure {
     margin-bottom: 5px;
     display: block;
   }
+  .blogImgLeft {
+    margin-bottom: 5px;
+    display: block;
+  }
+  .blogImgRight {
+    margin-bottom: 5px;
+    display: block;
+  }
   .petBioGrid {
     display: block;
   }
@@ -257,15 +264,16 @@ figure {
   #pet-photo {
     margin-bottom: 5px;
   }
-  .navigationH2 {
-    font-size: small;
-  }
   .navigationLinks {
-    font-size: smaller;
+    font-size: small;
     display: block;
+    line-height: 100%;
   }
   .navigationH1 {
-    font-size: larger;
+    font-size: large;
+  }
+  .navigationH2 {
+    font-size: small;
   }
   .postImg {
     margin-bottom: 5px;
@@ -278,13 +286,5 @@ figure {
   }
   figcaption {
     margin-bottom: 15px;
-  }
-  .blogImgLeft {
-    margin-bottom: 5px;
-    display: block;
-  }
-  .blogImgRight {
-    margin-bottom: 5px;
-    display: block;
   }
 }
