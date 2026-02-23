@@ -242,7 +242,7 @@ figure {
     display: block;
   }
   .blogGridImage {
-    width: auto;
+    display: block;
   }
   .petBioGrid {
     display: block;
