@@ -240,6 +240,7 @@ figure {
   }
   .blogGridWrapper {
     display: block;
+    width: auto;
   }
   .petBioGrid {
     display: block;
