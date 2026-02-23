@@ -258,6 +258,7 @@ figure {
   }
   .navigationLinks {
     font-size: smaller;
+    display: grid(2, 1fr 1fr 1fr);
   }
   .navigationH1 {
     font-size: larger;
