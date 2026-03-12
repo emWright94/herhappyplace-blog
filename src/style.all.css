@@ -161,12 +161,24 @@ button:hover {
   align-items: flex-start;
   gap: 10px;
 }
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
 .postImg {
   border: solid 1px #3a4d39;
   border-radius: 5px;
-  width: 300px;
+  width: 250px;
   float: left;
   margin-right: 15px;
+  margin-bottom: 10px;
 }
 .postContent {
   margin: 0 auto;
@@ -174,6 +186,13 @@ button:hover {
   text-align: left;
   font-size: larger;
   max-width: 100%;
+}
+iframe {
+  flex: 4;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 730px;
 }
 .gridWrapper {
   display: grid;
