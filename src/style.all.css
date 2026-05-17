@@ -177,7 +177,7 @@ button:hover {
 .postImg {
   border: solid 1px #3a4d39;
   border-radius: 5px;
-  width: 350px;
+  width: 200px;
   float: left;
   margin-right: 15px;
   margin-bottom: 10px;
@@ -188,17 +188,6 @@ button:hover {
   text-align: left;
   font-size: larger;
   max-width: 100%;
-}
-iframe {
-  flex: 4;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 730px;
-  border: solid 1px #3a4d39;
-  border-radius: 5px;
-  padding-top: 20px;
-  padding-bottom: 10px;
 }
 .gridWrapper {
   display: grid;
@@ -257,6 +246,35 @@ figure {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+iframe {
+  flex: 4;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 730px;
+  border-radius: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.columnLeft {
+  float: left;
+  width: 30%;
+  margin: 0 auto;
+  line-height: 150%;
+  text-align: left;
+  font-size: larger;
+  padding-top: 20px;
+}
+.columnRight {
+  float: right;
+  width: 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 @media only screen and (max-width: 800px) {
   .gridWrapper {
@@ -301,5 +319,11 @@ figure {
   }
   figcaption {
     margin-bottom: 15px;
+  }
+  .columnLeft {
+    width: 100%;
+  }
+  .columnRight {
+    width: 100%;
   }
 }
