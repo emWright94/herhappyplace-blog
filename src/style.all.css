@@ -99,7 +99,8 @@ a:hover {
   text-align: center;
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 10px 30px;
   line-height: 75%;
   color: #ece3ce;
@@ -117,7 +118,7 @@ a:hover {
 .emWright:hover {
   color: #ece3ce;
 }
-button {
+.toBottomButton {
   display: flex;
   justify-content;
   border: none;
@@ -126,13 +127,33 @@ button {
   font-family: "Lexend", serif;
   font-size: larger;
   color: #ece3ce;
-  padding: 10px, 10px;
   margin: 15px;
+    height: 30px;
+
 }
-button:hover {
+.toBottomButton:hover {
   border: none;
   color: #3a4d39;
   background-color: #ece3ce;
+  cursor: pointer;
+}
+.toTopButton {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3a4d39;
+  font-family: "Lexend", serif;
+  font-size: larger;
+  color: #ece3ce;
+  width: 45px;
+  height: 30px;
+}
+.toTopButton:hover {
+  border: none;
+  color: #ece3ce;
+  background-color: #6a9c89;
   cursor: pointer;
 }
 .newPost {
@@ -231,7 +252,7 @@ figure {
 .blogImgRight {
   border: solid 1px #3a4d39;
   border-radius: 5px;
-  width: 200px;
+  width: 280px;
   float: right;
   margin-left: 10px;
   margin-top: 10px;
@@ -240,7 +261,7 @@ figure {
 .blogImgLeft {
   border: solid 1px #3a4d39;
   border-radius: 5px;
-  width: 200px;
+  width: 280px;
   float: left;
   margin-right: 10px;
   margin-top: 10px;

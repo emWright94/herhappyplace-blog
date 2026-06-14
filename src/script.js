@@ -1,4 +1,4 @@
-let topButton = document.querySelector(".topButton");
+let topButton = document.querySelector(".toTopButton");
 
 topButton.addEventListener("click", () => {
   document.documentElement.scrollTo({
@@ -7,7 +7,7 @@ topButton.addEventListener("click", () => {
   });
 });
 
-let bottomButton = document.querySelector(".bottomButton");
+let bottomButton = document.querySelector(".toBottomButton");
 
 bottomButton.addEventListener("click", () => {
   document.documentElement.scrollTo({
