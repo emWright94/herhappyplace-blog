@@ -56,7 +56,7 @@ a:hover {
   color: #6a9c89;
   background-color: #ece3ce;
   font-family: "Lexend", serif;
-  font-size: smaller;
+  font-size: medium;
 }
 
 .mainCharacters {
@@ -75,6 +75,7 @@ a:hover {
   text-align: left;
   margin: 0;
   color: #6a9c89;
+  align-items: start;
 }
 .petBioSection {
   display: flex;
@@ -82,7 +83,7 @@ a:hover {
   align-items: center;
 }
 #pet-photo {
-  border: solid #3a4d39;
+  border: solid 1px #3a4d39;
   border-radius: 5px;
   width: 150px;
   float: left;
@@ -119,28 +120,27 @@ a:hover {
   color: #ece3ce;
 }
 .toBottomButton {
-  display: flex;
-  justify-content;
+  display: block;
+  margin: auto;
   border: none;
   border-radius: 5px;
   background-color: #3a4d39;
   font-family: "Lexend", serif;
   font-size: larger;
   color: #ece3ce;
-  margin: 15px;
-    height: 30px;
-
+  height: 30px;
 }
 .toBottomButton:hover {
   border: none;
   color: #3a4d39;
   background-color: #ece3ce;
   cursor: pointer;
+  display: block;
+  margin: auto;
 }
 .toTopButton {
   display: block;
   margin: 0 auto;
-  margin-bottom: 15px;
   border: none;
   border-radius: 5px;
   background-color: #3a4d39;
@@ -149,6 +149,7 @@ a:hover {
   color: #ece3ce;
   width: 45px;
   height: 30px;
+  place-self: center;
 }
 .toTopButton:hover {
   border: none;
@@ -221,6 +222,23 @@ a:hover {
   border: solid #3a4d39;
   border-radius: 5px;
   padding: 30px;
+  color: #6a9c89;
+  background-color: #ece3ce;
+  font-family: "Lexend", serif;
+  font-size: medium;
+  line-height: 175%;
+}
+.petGridWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  max-width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  row-gap: 30px;
+  column-gap: 30px;
+  padding-top: 30px;
   color: #6a9c89;
   background-color: #ece3ce;
   font-family: "Lexend", serif;
